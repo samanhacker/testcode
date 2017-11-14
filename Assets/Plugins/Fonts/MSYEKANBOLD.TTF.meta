@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bd49d20d98206e546acb356ceb93fbd6
+timeCreated: 1496651203
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MSYekan
+  fontNames:
+  - MSYekan
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 75d26aa8b726bba47b48fd521343cc3f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

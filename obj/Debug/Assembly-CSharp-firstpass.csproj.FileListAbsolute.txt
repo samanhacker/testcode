@@ -1,0 +1,93 @@
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Public\Documents\Unity Projects\BackGammon\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Public\Documents\Unity Projects\BackGammon\Temp\bin\Debug\ArabicSupport.dll
+C:\Users\Public\Documents\Unity Projects\BackGammon\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\ArabicSupport.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Mono.Cecil.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEditor.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Analytics.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.HoloLens.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.VR.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Unity.DataContract.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEditor.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.Analytics.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.HoloLens.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\Temp\bin\Debug\UnityEngine.VR.xml
+D:\Every thing Old Wind\Unity Projects\BackGammon\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+D:\Every thing Old Wind\Unity Projects\BackGammon\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Every thing Old Wind\Unity Projects\BackGammon\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\ArabicSupport.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Saman\Documents\BackGammon\BackGammon\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Saman\Documents\BackGammon\BackGammon\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Saman\Documents\BackGammon\BackGammon\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+C:\Users\Saman\Documents\BackGammon\BackGammon\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache

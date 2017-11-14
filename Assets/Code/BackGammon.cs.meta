@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: ab6341f86c80b5f46bf91ae385bcae49
+timeCreated: 1503917349
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - targetBounds: {instanceID: 0}
+  - R1: {instanceID: 0}
+  - R6: {instanceID: 0}
+  - R7: {instanceID: 0}
+  - R13: {instanceID: 0}
+  - R19: {instanceID: 0}
+  - Out1: {instanceID: 0}
+  - Out1t: {instanceID: 0}
+  - Out2: {instanceID: 0}
+  - Rend1: {instanceID: 0}
+  - Rend1t: {instanceID: 0}
+  - Rend2: {instanceID: 0}
+  - inp: {instanceID: 0}
+  - audio_Dice: {fileID: 8300000, guid: 69405f357a2865143b504df1bccf56b9, type: 3}
+  - audio_move: {fileID: 8300000, guid: 69405f357a2865143b504df1bccf56b9, type: 3}
+  - audio_nobat: {fileID: 8300000, guid: 69405f357a2865143b504df1bccf56b9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

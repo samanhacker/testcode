@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{968FE347-CF5B-D3B9-8A5E-60E853553780}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\DragEventSenderEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\EasyTweenEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialBaseEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialButtonEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialCheckboxEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialDropdownEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialInputFieldEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialRadioEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialRippleEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialScreenEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialSliderEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialSwitchEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialToggleBaseEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\RectTransformSnapEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\ScreenViewEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\ShadowGeneratorEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TabItemEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TabPageEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TabViewEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TweenManagerEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\VectorImageEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PostProcessors\GeneratedShadowPostProcessor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\ImageDataPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\OptionDataListPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\RippleDataPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\VectorImageDataPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\MaterialUIDataTool.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\MaterialUIEditorTools.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\MaterialUIInspectorFields.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\File\Editor\VectorImageFileParserFontastic.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\File\Editor\VectorImageFileParserFontello.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\File\Editor\VectorImageFileParserIcoMoon.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\VectorImageFontParser.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserBrandico.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserCommunityMD.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserFontAwesome.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserFontelico.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserIcoMoon.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserIonicons.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserJustVector.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserKenney.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserMapVectorImages.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserMaterialDesign.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserOcticons.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserOpenIconic.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserOpenWebVectorImages.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserPayment.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserSocialicious.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserWeatherVectorImages.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Sections\ImportCustomFontSection.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Sections\ImportFontParametersSection.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Sections\ImportWebFontSection.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\VectorImageManagerWindow.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\VectorImagePickerWindow.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\Editor\UnityZip\Zip.cs" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-pt-rPT\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-nb\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-tl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-lo\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-sl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ml\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\color\common_google_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_plus_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-lv\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-bn\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-es-rUS\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-si\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-sq\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-kk\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-be\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-tr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-fa\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ne\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-pt-rBR\values.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\R.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-es\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-et\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ka\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ur\values.xml" />
+     <None Include="Assets\MaterialUI\README.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-mk\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-vi\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-sr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-bn\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-fa\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-gl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-lo\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-my\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-lv\values.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-is\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-zu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ru\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-mn\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-mr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-in\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-sq\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-lt\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-zh-rHK\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-az\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-cs\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-kn\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ml\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-en-rGB\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-bs\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-sv\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-mn\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-hu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-pa\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_google_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ms\values.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-is\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-sw\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-am\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-be\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-nl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-sw\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-sv\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-zh-rTW\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-tl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-uz\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-th\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-pt-rPT\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-sk\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-km\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-it\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-fr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-lt\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-da\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-kk\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-de\values.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ru\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ko\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-vi\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-uk\values.xml" />
+     <None Include="Assets\Plugins\Android\res\values-mcc432\values-mcc432.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-hr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ar\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ka\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-et\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-tr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-pl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-bg\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_google_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-cs\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-zh-rCN\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-hu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-fr-rCA\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-kn\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-bg\values.xml" />
+     <None Include="Assets\MaterialUI\Fonts\Roboto\NOTICE.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\custom_notification.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-in\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-zu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-en-rGB\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ar\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ta\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-pa\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-gu\values.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\res\layout\webview_layout.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-af\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_google_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\res\values-mcc432\values-mcc432.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-nl\values.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\proguard.txt" />
+     <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\color\common_google_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-gu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-iw\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ko\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-it\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-iw\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-pl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\color\common_plus_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-my\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-bs\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ky\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_plus_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-th\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-am\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-hy\values.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\res\layout\custom_notification.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ms\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-hy\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-af\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-si\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-gl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-te\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-uz\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-zh-rCN\values.xml" />
+     <None Include="Assets\MaterialUI\CHANGELOG.txt" />
+     <None Include="Assets\Plugins\Android\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-pt-rBR\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-sk\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-sl\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-fi\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-fr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_google_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\Pushe\res\values-en\values-en.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-fr-rCA\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-km\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-el\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-da\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-de\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ur\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ca\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_plus_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-te\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-zh-rTW\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ne\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\color\common_plus_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-mr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-nb\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ky\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-hi\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-hr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-fi\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-eu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-hi\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-el\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ro\values.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\webview_layout.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\drawable\common_plus_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\R.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-zh-rHK\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-az\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-es-rUS\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-uk\values.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en\values-en.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-sr\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ca\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-eu\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ro\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-es\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-ja\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ta\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-basement-9.4.0\res\values-mk\values.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services-base-9.4.0\res\values-ja\values.xml" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="ArabicSupport">
+ <HintPath>C:/Users/Saman/Documents/BackGammon/BackGammon/Assets/Plugins/EGGA/UPersian/Scripts/Utils/ArabicSupport.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WSA.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip">
+ <HintPath>C:/Users/Saman/Documents/BackGammon/BackGammon/Assets/MaterialUI/Utils/Editor/UnityZip/Ionic.Zip.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0D3A1A32-22E1-A170-F472-4A26C967F3C6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{E026D52D-8E07-8AD3-DD51-44E50E68D3B8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{C12001E3-5929-D701-8F4B-4EA64845CD7C}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

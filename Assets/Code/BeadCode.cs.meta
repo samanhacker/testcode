@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 39ce35f274044b24097afbe476a9948a
+timeCreated: 1502456390
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - SPBlack: {fileID: 21300000, guid: d7abf7b8a11c80546aa25ca394dae8c1, type: 3}
+  - SPWhite: {fileID: 21300000, guid: a76941f4b3f0c634b876d2e109019f68, type: 3}
+  - sr: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
